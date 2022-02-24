@@ -1,0 +1,249 @@
+body {
+    font-family: 'Rubik', sans-serif;
+}
+
+#top-banner {
+    background-color: #fff;
+    color: #68029e;
+    padding-top: 8px;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    border-bottom: 2px solid #68029e;
+}
+
+#top-banner #pphone {
+    position: relative;
+    top: 14px;
+}
+#top-banner .container .row #logo1 { 
+    display: none;
+}
+
+#top-banner .container .row #banner-phone span, #top-banner .container .row #banner-phone p {
+    float: left;
+}
+
+#top-banner .container .row #banner-email p { 
+    float: right;
+}
+#top-banner .logo-bw {
+    height: 36px;
+    width: 206px;
+}
+
+.prev-ans {
+    color: red;
+}
+
+
+.btn-icon {
+ height: 50px;
+  width: 50px;
+}
+#content {
+    padding: 10px;
+    text-align: center;
+    overflow: hidden;
+}
+
+#bodyType {
+    width: 100%;
+    height: auto;
+}
+#white-bg {
+    padding: 4px;
+    background-color: #fff;
+    font-weight: 900;
+    font-size: 4em;
+    text-align: center;
+    color: #fff;
+    border-radius: 4px;
+}
+
+#content .headers {
+    font-family: 'Fjalla One', sans-serif;
+    
+}
+
+#content .headers.header-first {
+    color: #d40000;
+    font-size: 2.9em;
+    line-height: 1.4;
+}
+
+#content .headers.header-second {
+    color: #000;
+    font-size: 3.2em;
+    line-height: 1.2;
+    
+}
+
+#content .headers.header-sub {
+    font-size: 1.6em;
+}
+#content #button-container {
+    width: 75%;
+    margin: auto;
+}
+
+
+#content #button-container .ini-ans {
+    text-align: center;
+    padding: 2px;
+    color: #000;
+    border-radius: 5px;
+    border: 2px solid #ff8c00;
+    background-image: linear-gradient(#f7ab08,#f7ab08, #ff8c00);
+    width: 100%;
+    font-weight: 900;
+    line-height: 1.2;
+    white-space: normal;
+    margin-bottom: 22px;
+    transition: color 0.3s ease;
+}
+
+#content #button-container .ini-ans img {
+    width: 90px;
+   height: 90px;
+   border-radius: 5px;
+   border: 2px solid #454545;
+   position: relative; 
+   /* left: 0; */
+   float: left;
+ }
+
+ #content #button-container .ini-ans span {
+     /* text-align: center; */
+    font-size: 4.3rem;
+ position: relative;
+ top: .2em;
+ margin-left: .2em;
+ }
+
+ #content #button-container .ini-ans:nth-child(2) span{
+    top: .1em;
+    font-size: 3.8rem;
+ }
+
+
+#content #button-container .ini-ans:hover {
+    color: #000;
+    /* background-color: #be0101; */
+}
+
+.footer {
+    color: gray;
+     font-size: 1.5vh; 
+   }
+
+#footer .center-block a {
+    color: #c36;
+}
+
+.modal-header .text-center {
+    font-size: 1.4em;
+}
+
+#qbox  {
+    width: 55%;
+}
+
+.question-box.box-hidden {
+    display: none;
+    right: -100px;
+
+}
+
+#question-modal .progress-container {
+    margin: 0; 
+    padding: 0;
+    width: 100%;
+    color: #000;
+    background: rgba(0,0,0,.1);
+    /* background: red; */
+      border-radius: 20px;
+    height: 2.2vh;
+  }
+  #question-modal .progress {
+    width:0%;
+     background: #d40000;
+      height: 2.2vh;
+       font-size: .8em; 
+       text-align: center;
+        color: #fff;
+        min-width: 2em;
+    border-radius: 30px;
+    padding: 0;
+    font-weight: 400;
+}
+
+.question-box {
+    position: relative;
+}
+
+.question-box .pick {
+    font-size: 1.2em;
+}
+
+.question-title {
+
+    padding: 10px;
+}
+
+.question-title p {
+    text-transform: capitalize;
+    line-height: 1.4;
+    font-size: 1.4em;
+    font-weight: 700;
+    color: #000;
+}
+
+.question-title p .emph {
+ font-weight: 900;
+  color: #d40000;
+}
+
+
+
+
+.question-answers {
+    padding: 6px;
+  text-align: center;
+}
+.question-answers .row .col-md-4 {
+    padding: 4em;
+   
+}
+
+
+
+.answers-col {
+    padding: 6px;
+    background: rgba(0,0,0,.1);
+    border-radius: 4px;
+    cursor: pointer;
+   text-align: left;
+}
+.answers-col .img-responsive {
+    border-radius: 4px;
+    margin: auto;
+}
+.answers-col label{
+   font-size: 1.2em;
+  text-align: left;
+}
+
+.answers-col:hover {
+    padding: 6px;
+    background: #fff38b;
+}
+
+.question-answers .question-red{
+    display: inline-block;
+    background:  	#00008B;
+    color: #fff;
+    font-size: 1.4em;
+  	
+  	
+}

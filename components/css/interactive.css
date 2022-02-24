@@ -1,0 +1,545 @@
+body {
+    font-family: 'Open Sans', sans-serif; 
+  padding: 0px !important;
+}
+.vsl {
+width: 60%;
+margin: 0 auto;
+text-align: center;
+}
+
+#topBanner {
+
+  background-color: #161a25;
+  margin-bottom: 20px;
+}
+
+ #r2Btn, #r3Btn, #r4Btn {
+  display: none;
+ margin-top: 18px; 
+}
+
+.textLogo {
+ color: #fff;
+  font-family: 'Racing Sans One', cursive;
+  text-align: left;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 1.2;
+  margin-top: 0px;
+  
+}
+#blueTop {
+  background-color: #103e70;
+  padding: 0px;
+  margin: 0 auto;
+}
+
+#blueTop h1{
+ font-size: 40px;
+  line-height: 60px;
+  font-weight: 700;
+  text-align: center;
+  color: #fff;
+font-family: "Fjalla One";
+}
+
+#mainSection {
+  font-family: 'Fjalla One', sans-serif;
+}
+#mainSection h2 {
+      text-align: center;
+    color: #000;
+     line-height: 1;
+    font-size: 49px;
+    font-weight: 700;
+}
+
+#mainSection p {
+      text-align: center;
+    color: #000;
+   line-height: 30px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+#mainSection h3 {
+  text-align: center;
+  color: #900;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+#mainSection .col-md-4 {
+  padding: 20px;
+  cursor: pointer;
+}
+
+#mainSection .col-md-4 .col-wrap {
+  border: 1px solid #103e70;
+}
+
+#mainSection #btnHolder {
+ text-align: center; 
+}
+
+#extra {
+  border: 4px solid #000;
+}
+
+#extra h2 {
+
+  font-size: 24px;
+  line-height: 1.2;
+  font-weight: 500;
+  color:#000;
+}
+#mainSection #btnHolder .btnMod {
+  width: auto;
+  font-size: 30px;
+font-weight: 700;
+fill: #fff;
+color: #fff;
+background-color: red;
+border-style: solid;
+border-width: 5px;
+border-radius: 28px;
+box-shadow: 0px 0px 10px 0px rgba(0,0,0,1);
+padding: 13px 200px;
+margin-bottom: 50px;
+}
+
+#mainSection #btnHolder .btnMod:hover {
+  background-color: #900;
+}
+
+#quiz1, #quiz2, #quiz3, #quiz4 {
+ width: 60%; 
+ margin: 0 auto;
+}
+#quiz1 .question .qTitle {
+ text-align: center; 
+  font-weight: 900;
+  color: #000;
+  line-height: 1;
+  font-size: 31px;
+}
+#quiz1 .question .ans:hover {
+  background-color: #900;
+}
+#quiz1 .question .ans {
+
+  font-size: 24px;
+  font-weight: 700;
+  color: #fff;
+  background-color: red;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  
+  
+  
+}
+
+.complete {
+  width: 60%;
+  margin: 0 auto;
+ text-align: center; 
+}
+
+#mainContent #result1 .title {
+ font-size: 24px;
+  text-align: center;
+  font-weight: 900;
+  line-height: 1.2;
+  color: red;
+  margin: 2px;
+}
+
+#result1 {
+ text-align: center; 
+}
+
+#mainContent #result1 .liner {
+ font-size: 20px;
+  text-align: center;
+  font-weight: 500;
+  line-height: 1.2;
+  color: #000;
+  margin: 2px;
+}
+
+#result1 .step-two {
+ width: auto;
+  font-size: 24px;
+font-weight: 700;
+fill: #fff;
+color: #fff;
+background-color: red;
+border-style: solid;
+border-width: 5px;
+border-radius: 28px;
+box-shadow: 0px 0px 10px 0px rgba(0,0,0,1);
+padding: 10px 150px;
+margin-bottom: 50px;
+margin-top: 20px;
+  
+}
+
+#result1 .step-two:hover {
+  background-color: #900;
+}
+
+#quiz2 {
+ text-align: center; 
+}
+#quiz2 h2 {
+  text-align: center; 
+  font-weight: 900;
+  color: #000;
+  line-height: 1;
+  font-size: 25px; 
+}
+#quiz2 .input-group {
+ /* width: 70%; */
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+input[type="range"] {
+  width:400px;
+}
+#quiz3 .input-group {
+ /* width: 70%; */
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 20px;
+  font-size: 22px;
+}
+
+#quiz2 .question .ans:hover {
+  background-color: #900;
+}
+#quiz2 .question .ans {
+  font-size: 24px;
+  font-weight: 700;
+  color: #fff;
+  background-color: red;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 20px;
+  }
+#quiz2 .question textarea {
+  margin-bottom: 20px;
+}
+
+#result2 {
+ text-align: center; 
+}
+
+#result2 h4 {
+ font-size: 22px;
+  text-align: center;
+  font-weight: 500;
+  line-height: 1;
+  color: #000;
+}
+
+#result2 .step-three {
+ width: auto;
+  font-size: 24px;
+font-weight: 700;
+fill: #fff;
+color: #fff;
+background-color: red;
+border-style: solid;
+border-width: 5px;
+border-radius: 28px;
+box-shadow: 0px 0px 10px 0px rgba(0,0,0,1);
+padding: 10px 150px;
+margin-bottom: 50px;
+  
+}
+
+#result2 .step-three:hover {
+  background-color: #900;
+}
+
+
+
+#quiz3 {
+ text-align: center; 
+  
+}
+#quiz3 .question h2 {
+ text-align: center; 
+  font-weight: 900;
+  color: #000;
+  line-height: 1;
+  font-size: 31px;
+}
+#quiz3 .question .ans:hover {
+  background-color: #900;
+}
+#quiz3 .question .ans {
+
+  font-size: 24px;
+  font-weight: 700;
+  color: #fff;
+  background-color: red;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 20px;
+  
+}
+#quiz3 .question .checkbox {
+ box-shadow: 0 2px 34px 0 rgba(0, 0, 0, 0.2);
+border: solid 1px rgba(151, 151, 151, 0.3);
+  font-size: 20px;
+  font-weight: 700;
+  color: #000;
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+  margin-bottom: 20px;
+  transition: 0.2s ease;
+  padding: 20px 0px;
+  cursor: pointer;
+}
+
+#quiz3 .question .checkbox .cbo { 
+  float: left;
+}
+
+
+#result3 {
+ text-align: center; 
+}
+
+#result3 h4 {
+ font-size: 22px;
+  text-align: center;
+  font-weight: 500;
+  line-height: 1;
+  color: #000;
+}
+
+#result3 .step-four {
+ width: auto;
+  font-size: 24px;
+font-weight: 700;
+fill: #fff;
+color: #fff;
+background-color: red;
+border-style: solid;
+border-width: 5px;
+border-radius: 28px;
+box-shadow: 0px 0px 10px 0px rgba(0,0,0,1);
+padding: 10px 150px;
+margin-bottom: 50px;
+  
+}
+
+#result3 .step-four:hover {
+  background-color: #900;
+}
+
+
+
+
+
+#quiz4 {
+ text-align: center; 
+  
+}
+#quiz4 .question h2 {
+ text-align: center; 
+  font-weight: 900;
+  color: #000;
+  line-height: 1;
+  font-size: 31px;
+}
+#quiz4 .question .ans:hover {
+  background-color: #900;
+}
+#quiz4 .question .ans {
+
+  font-size: 24px;
+  font-weight: 700;
+  color: #fff;
+  background-color: red;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 20px;
+  
+}
+
+
+
+#result4 {
+ text-align: center; 
+}
+
+#result4 h4 {
+ font-size: 22px;
+  text-align: center;
+  font-weight: 500;
+  line-height: 1;
+  color: #000;
+}
+
+#result4 .step-four {
+ width: auto;
+  font-size: 24px;
+font-weight: 700;
+fill: #fff;
+color: #fff;
+background-color: red;
+border-style: solid;
+border-width: 5px;
+border-radius: 28px;
+box-shadow: 0px 0px 10px 0px rgba(0,0,0,1);
+padding: 10px 150px;
+margin-bottom: 50px;
+  
+}
+
+#result4 .step-four:hover {
+  background-color: #900;
+}
+
+
+
+/****product section*******/
+#result4 .col-md-4 {
+ padding: 20px; 
+}
+
+#price {
+  
+  width: 70px;
+  display: inline;
+  margin-right: 10px;
+  font-size: 4em;
+  font-weight:bold;
+  float: left;
+  margin-left: 50px;
+    }
+    
+    #per {
+      margin-top: 10px;
+     padding: 10px;
+      width: 100px;
+ float: left;
+  display: inline;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -o-text-overflow: ellipsis;
+  -ms-text-overflow: ellipsis;
+  white-space: nowrap;
+  word-break: break-all;
+      
+      
+}
+
+#bottle {
+   text-align: left;
+  font-size: 2.5vh;
+  font-weight:bold;
+  white-space: pre;
+  word-wrap: break-word;
+  -ms-word-wrap: break-word;
+  -ms-word-break: break-word;
+}
+    .best {
+     display: none; 
+    }
+    .bVal {
+    font-size: 24px;
+      color: #fff;
+      background-color: #c51919;
+      box-shadow: 0 0 15px 10px #c51919;
+      text-align: center;
+      font-weight: 800;
+       padding-top: 10px;
+      padding-bottom: 10px;
+    }
+
+  .pt {
+      font-family: 'Oswald', sans-serif;
+      font-size: 4.5vh;
+      font-weight: 700;
+    color: #132a74;
+    }
+    .ptt{
+       font-family: 'Oswald', sans-serif;
+      font-size: 4vh;
+     color: #132a74;
+      line-height: 1.2;
+    }
+
+.glyphicon-ok {
+ color: green; 
+}
+    .ix {
+     
+    border: 4px solid #c8c8c8;
+      border-radius: 10px;
+    }
+    .ixx {
+      
+     border: 4px solid #00c6b5;
+      border-radius: 10px;
+    }
+
+     .price {
+    width: 300px;
+  display: inline-block;
+      color: #0093d8;
+     
+    }
+
+.flinks {
+      color: #000; 
+      font-size: 12px;
+      font-weight: 500;
+    }
+
+  .cfooter{
+   
+          margin-left: auto;
+    margin-right: auto;
+   
+      width: 50%;
+      padding: 20px;
+   		 }
+
+.cfooter .footer {
+
+font-size: 12px;
+}
+.faq {
+      width: 70%;
+      margin: 0 auto;
+    }
+    .faqt {
+      text-align: left;
+      font-size: 3vh;
+        font-weight: 600;
+      color: #0093d8;
+    }
+    .faqp {
+      text-align: left;
+      font-size: 2.5vh;
+        font-weight: 500;
+      
+    }
+    .bfq {padding: 10px;}
+    .bfaq {
+    height: 300px;
+    max-width: 100%;
+      margin: 0 auto;
+    }

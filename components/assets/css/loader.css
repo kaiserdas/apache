@@ -1,0 +1,198 @@
+/* .loader  {
+    animation: rotate 1s infinite;  
+    height: 50px;
+    width: 50px;
+  }
+  
+  .loader:before,
+  .loader:after {   
+    border-radius: 50%;
+    content: '';
+    display: block;
+    height: 20px;  
+    width: 20px;
+  }
+  .loader:before {
+    animation: ball1 1s infinite;  
+    background-color: #cb2025;
+    box-shadow: 30px 0 0 #f8b334;
+    margin-bottom: 10px;
+  }
+  .loader:after {
+    animation: ball2 1s infinite; 
+    background-color: #00a096;
+    box-shadow: 30px 0 0 #97bf0d;
+  }
+  
+  @keyframes rotate {
+    0% { 
+      -webkit-transform: rotate(0deg) scale(0.8); 
+      -moz-transform: rotate(0deg) scale(0.8);
+    }
+    50% { 
+      -webkit-transform: rotate(360deg) scale(1.2); 
+      -moz-transform: rotate(360deg) scale(1.2);
+    }
+    100% { 
+      -webkit-transform: rotate(720deg) scale(0.8); 
+      -moz-transform: rotate(720deg) scale(0.8);
+    }
+  }
+  
+  @keyframes ball1 {
+    0% {
+      box-shadow: 30px 0 0 #f8b334;
+    }
+    50% {
+      box-shadow: 0 0 0 #f8b334;
+      margin-bottom: 0;
+      -webkit-transform: translate(15px,15px);
+      -moz-transform: translate(15px, 15px);
+    }
+    100% {
+      box-shadow: 30px 0 0 #f8b334;
+      margin-bottom: 10px;
+    }
+  }
+  
+  @keyframes ball2 {
+    0% {
+      box-shadow: 30px 0 0 #97bf0d;
+    }
+    50% {
+      box-shadow: 0 0 0 #97bf0d;
+      margin-top: -20px;
+      -webkit-transform: translate(15px,15px);
+      -moz-transform: translate(15px, 15px);
+    }
+    100% {
+      box-shadow: 30px 0 0 #97bf0d;
+      margin-top: 0;
+    }
+  } */
+
+  .circle-wrap {
+    margin: 20px auto;
+    width: 300px;
+    height: 300px;
+    background: #fefcff;
+    border-radius: 50%;
+    border: 1px solid #cdcbd0;
+  }
+
+  .circle-wrap .circle .mask,
+.circle-wrap .circle .fill {
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  border-radius: 50%;
+  /* border: 1px solid #227ded; */
+}
+
+.mask .fill {
+  clip: rect(0px, 150px, 300px, 0px);
+  background-color: #227ded;
+  /* border: 4px solid #227ded; */
+}
+
+
+.circle-wrap .circle .mask {
+    clip: rect(0px, 300px, 300px, 150px);
+  }
+  
+  .mask.full,
+  .circle .fill {
+    animation: fill ease-in-out 5s;
+    transform: rotate(180deg);
+  }
+  
+  @keyframes fill{
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(180deg);
+    }
+  }
+
+  .circle-wrap .inside-circle {
+    width: 290px;
+    height: 290px;
+    border-radius: 50%;
+    background: #d2eaf1;
+    line-height: 120px;
+    text-align: center;
+    margin-top: 5px;
+    margin-left: 5px;
+    color: #1F51FF;
+    position: absolute;
+    z-index: 100;
+    font-weight: 700;
+    font-size: 3em;
+    padding-top: 50px
+  }
+
+  @media (min-width: 280px) and (max-width: 480px) {
+    .circle-wrap {
+        margin: 20px auto;
+        width: 150px;
+        height: 150px;
+        background: #fefcff;
+        border-radius: 50%;
+        border: 1px solid #cdcbd0;
+      }
+    
+      .circle-wrap .circle .mask,
+    .circle-wrap .circle .fill {
+      width: 150px;
+      height: 150px;
+      position: absolute;
+      border-radius: 50%;
+      /* border: 1px solid #227ded; */
+    }
+    
+    .mask .fill {
+      clip: rect(0px, 75px, 150px, 0px);
+      background-color: #227ded;
+      /* border: 4px solid #227ded; */
+    }
+    
+    
+    .circle-wrap .circle .mask {
+        clip: rect(0px, 150px, 150px, 75px);
+      }
+      
+      .mask.full,
+      .circle .fill {
+        animation: fill ease-in-out 5s;
+        transform: rotate(180deg);
+      }
+      
+      @keyframes fill{
+        0% {
+          transform: rotate(0deg);
+        }
+        100% {
+          transform: rotate(180deg);
+        }
+      }
+    
+      .circle-wrap .inside-circle {
+        width: 122px;
+        height: 122px;
+        border-radius: 50%;
+        background: #d2eaf1;
+        line-height: 120px;
+        text-align: center;
+        margin-top: 14px;
+        margin-left: 14px;
+        color: #1F51FF;
+        position: absolute;
+        z-index: 100;
+        font-weight: 700;
+        font-size: 2.4em;
+        padding-top: 0;
+      }
+  }
+  
+  

@@ -1,0 +1,65 @@
+/* CSS MEDIA QUERIES FOR SMALL SCREENS */
+@media (min-width: 769px) and (max-width: 991px){
+    .text {
+      width: 100%;
+      
+      }
+      
+      .bna img {
+    
+        width:  200px;
+        height: 200px;
+       
+    }
+      
+      .dba {
+    font-size: 3em;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1242px){
+
+
+  
+
+  
+  .join-link span {
+   
+    font-size: 4.3rem;
+ 
+  top: .2em;
+  
+  }
+
+  .divQ:nth-child(2) .join-link span {
+    /* text-align: center; */
+   font-size: 3.8rem;
+  top: .1em;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 991px){
+
+
+  
+  .join-link img {
+    width: 80px;
+   height: 80px;
+ 
+  }
+  
+  .join-link span {
+   
+    font-size: 3.8rem;
+ 
+  top: .1em;
+  
+  }
+
+  .divQ:nth-child(2) .join-link span {
+    /* text-align: center; */
+   font-size: 3.4rem;
+   top: .1em;
+  }
+
+}

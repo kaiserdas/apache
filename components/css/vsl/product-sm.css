@@ -1,0 +1,188 @@
+
+  @media (min-width: 280px) and (max-width: 767px){
+  
+    /* media query for the top-banner (remove floats) */
+  
+    
+    #top-banner .fa-phone-alt {
+        /* position:relative;
+        top: 0px;
+        float: none; */
+        display: none;
+  
+    }
+    #top-banner .container .row #logo1 { 
+        display: block;
+    }
+  
+    #top-banner .container .row #logo2 { 
+        display: none;
+    }
+  
+    #top-banner .container .row #banner-phone  {
+        display: none;
+        float: none;
+        text-align: center;
+    }
+  
+    #top-banner .container .row #banner-email { 
+        display: none;
+        float: none;
+        text-align: center;
+    }
+  
+    #top-banner .container .row .col-sm-4.col-md-4.col-lg-4 {
+        padding-bottom: 10px;
+    }
+  
+  /* media query for active bundle selected image size */
+
+  .bundle-pic {
+    height: auto;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#blue p {
+    font-size: 1.2em;
+   
+}
+
+#company-contact, .banner-text {
+    font-size: 1.1em;
+}
+#bundle-select {
+    width: 100%;
+}
+
+
+
+.bundle-section, .info-section {
+    width: 100%;
+    margin: 0 auto;
+}
+
+#mb-pic {
+    height: auto;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.info-content {
+    padding: 20px 10px;
+}
+
+/* COMMENT SECTION */
+
+.profile-name {
+    margin-left: 20px;
+    font-size: 1.1em;
+  }
+.profile-head {
+ height: 45px;
+  width: 45px;
+  
+ 
+}
+
+.profile-head p {
+  line-height: 2.2;
+  font-size: 1.2em;
+
+
+}
+
+.profile-head .badge {
+ 
+  right: -15px;
+  top: -12px;
+ 
+}
+
+.list-head {
+    font-size: 1.4em;
+    font-weight: 700;
+}
+
+.list-content {
+    font-size: 1.2em;
+}
+
+.price {
+    font-size: 1.2em;
+    
+}
+
+
+
+
+
+  }
+
+  @media (min-width: 280px) and (max-width: 480px){ 
+    /* mobile only */
+    #in-caret {
+        font-size: 1.8em;
+    }
+    
+    .main-checkout .container #in-caret .caret {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        border-top: 8px solid #000000;
+        
+    }
+
+    .box-bundle .bundle.bundle-details .bundle-description{
+        font-size: 1.2em;
+     
+    }
+    
+    .box-bundle .bundle.bundle-details .bundle-bottle{
+        font-size: 2.4em;
+        
+    }
+
+    .head-slim {
+        font-size: 1.6em;
+    }
+
+    .faq-title {
+        font-size: 1.8em;
+    }
+
+    .faq-content {
+        font-size: 1.4em;
+    }
+  }
+
+  @media (min-width: 481px) and (max-width: 767px){ 
+    /* tablets and small screens only */
+#in-caret {
+    font-size: 2em;
+}
+
+.main-checkout .container #in-caret .caret {
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid #000000;
+   
+}
+    .box-bundle .bundle.bundle-details .bundle-description{
+        font-size: 1.4em;
+     
+    }
+    
+    .box-bundle .bundle.bundle-details .bundle-bottle{
+        font-size: 3.4em;
+        
+    }
+  }
+
+  @media (min-width: 280px) and (max-width: 991px){
+
+    
+    #comment-reviews, .comments {
+   width: 100%; 
+  }
+    
+  }

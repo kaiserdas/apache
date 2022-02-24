@@ -1,0 +1,113 @@
+body {
+  
+font-family: 'Rubik', sans-serif;
+  text-align: center;
+}
+
+
+#top-banner {
+  background-color: #fff;
+  color: #68029e;
+  padding-top: 8px;
+  font-family: 'Inter', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  border-bottom: 2px solid #68029e;
+  margin-bottom: 1em;
+}
+
+#top-banner .fa-phone-alt {
+  position: relative;
+  top: 14px;
+}
+#top-banner .container .row #logo1 { 
+  display: none;
+}
+
+#top-banner .container .row #banner-phone span, #top-banner .container .row #banner-phone p {
+  float: left;
+}
+
+#top-banner .container .row #banner-email p { 
+  float: right;
+}
+#top-banner .logo-bw {
+  height: 36px;
+  width: 206px;
+}
+
+
+@media (min-width: 280px) and (max-width: 767px){
+
+  /* media query for the top-banner (remove floats) */
+
+  
+  #top-banner .fa-phone-alt {
+      /* position:relative;
+      top: 0px;
+      float: none; */
+      display: none;
+
+  }
+  #top-banner .container .row #logo1 { 
+      display: block;
+  }
+
+  #top-banner .container .row #logo2 { 
+      display: none;
+  }
+
+  #top-banner .container .row #banner-phone  {
+      display: none;
+      float: none;
+      text-align: center;
+  }
+
+  #top-banner .container .row #banner-email { 
+      display: none;
+      float: none;
+      text-align: center;
+  }
+
+  #top-banner .container .row .col-sm-4.col-md-4.col-lg-4 {
+      padding-bottom: 10px;
+  }
+
+
+}
+
+
+#box-content {
+ border-radius: 15px;
+box-shadow: 0 2px 24px 0 rgb(0 0 0 / 10%); 
+  padding: 20px 30px;
+}
+.blue {
+ /*color: #2798a5; */
+  color: #2798a5;;
+}
+
+#meta {
+ margin-bottom: 24px; 
+  font-weight: 700;
+}
+
+#send-plan {
+ color: #fff; 
+  background-color: #2798a5;; 
+  width: 100%;
+  margin-bottom: 20px;
+  white-space: normal;
+  font-weight: 700;
+}
+
+#bottom {
+	text-align: center;
+  margin-bottom: 14px;
+  
+}
+
+#bottom label {
+ font-size: 10px;
+}
+

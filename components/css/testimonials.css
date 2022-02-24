@@ -1,0 +1,316 @@
+
+    html {
+        scroll-behavior: smooth;
+      }
+       body {
+          font-family: 'Rubik', sans-serif; 
+       
+      }
+          
+      .container-fluid {
+          width: 100%;
+          margin-left: 0;
+          margin-right: 0;
+          padding: 10px;
+          
+      }
+
+          
+#top-banner {
+  background-color: #fff;
+  color: #68029e;
+  padding-top: 8px;
+  font-family: 'Inter', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  border-bottom: 2px solid #68029e;
+}
+
+#top-banner .fa-phone-alt {
+  position: relative;
+  top: 14px;
+}
+#top-banner .container .row #logo1 { 
+  display: none;
+}
+
+#top-banner .container .row #banner-phone span, #top-banner .container .row #banner-phone p {
+  float: left;
+}
+
+#top-banner .container .row #banner-email p { 
+  float: right;
+}
+#top-banner .logo-bw {
+  height: 36px;
+  width: 206px;
+}
+
+@media (min-width: 280px) and (max-width: 767px){
+
+  /* media query for the top-banner (remove floats) */
+
+  
+  #top-banner .fa-phone-alt {
+      /* position:relative;
+      top: 0px;
+      float: none; */
+      display: none;
+
+  }
+  #top-banner .container .row #logo1 { 
+      display: block;
+  }
+
+  #top-banner .container .row #logo2 { 
+      display: none;
+  }
+
+  #top-banner .container .row #banner-phone  {
+      display: none;
+      float: none;
+      text-align: center;
+  }
+
+  #top-banner .container .row #banner-email { 
+      display: none;
+      float: none;
+      text-align: center;
+  }
+
+  #top-banner .container .row .col-sm-4.col-md-4.col-lg-4 {
+      padding-bottom: 10px;
+  }
+
+
+}
+          
+          #vPlay {
+           width: 150px;
+            height: 150px;
+            text-align: center;
+            border: 4px solid #00FFFF;
+            border-radius: 50%;
+            padding: 20px;
+            cursor: pointer;
+            margin: 0 auto;
+            position: relative;
+          
+            top: -400px;
+          }
+           #main_content #vPlay span {
+             color: #00FFFF;
+            font-size: 40px;
+            font-weight: 700;
+          }
+          #main_content #vPlay p {
+             color: #00FFFF;
+            font-size: 20px;
+            font-weight: 900;
+          }
+          
+          @media (min-width: 768px)and (max-width: 1150px) {
+            #vPlay {
+             top: -300px; 
+            }
+            
+          }
+          
+          @media (min-width: 512px)and (max-width: 767px) {
+            #vPlay {
+             top: -200px; 
+            }
+            
+          }
+          
+           @media (min-width: 423px)and (max-width: 511px) {
+            #vPlay {
+               width: 100x;
+            height: 100x;
+             top: -180px;
+              padding: 25px;
+            }
+               #main_content #vPlay span {
+            
+            font-size: 30px
+           
+          }
+          #main_content #vPlay p {
+             
+            font-size: 14px
+            
+          }
+          }
+          
+          @media (min-width: 280px)and (max-width: 422px) {
+            #vPlay {
+               width: 60x;
+            height: 60x;
+             top: -160px;
+              padding: 15px;
+            }
+               #main_content #vPlay span {
+            
+            font-size: 26px;
+           
+          }
+          #main_content #vPlay p {
+             
+            font-size: 14px;
+            
+          }
+          }
+      
+      #tyTop {
+        padding: 20px 100px; 
+         text-align: center;
+         border-bottom: 4px solid #7c009e;
+        background-color: #161616;
+       }
+       .glyphicon-earphone {
+          -webkit-transform:rotateY(180deg);
+      -moz-transform:rotateY(180deg);
+      -o-transform:rotateY(180deg);
+      -ms-transform:rotateY(180deg);
+       }
+       
+       #logoContainer {
+        float: left;
+       }
+       
+       #phoneContainer {
+        float: right; 
+         border-radius: 25px;
+         padding: 10px 30px;
+          background: rgb(25,0,36);
+      background: linear-gradient(90deg, rgba(25,0,36,1) 0%, rgba(65,9,121,1) 28%, rgba(107,0,255,1) 100%); 
+       }
+       
+       #phoneContainer a {
+        font-size: 20px; 
+         color: white;
+       }
+      
+      
+      .textLogo p {
+        font-family: 'Racing Sans One', cursive;
+        /* text-align: center; */
+        font-size: 28px;
+        font-weight: 700;
+      }
+      
+      
+      #main_content {
+        width: 80%;
+        text-align: center;
+        padding-top: 40px;
+      }
+      .vim-container {
+        height: 600px;
+        width: 400px;
+        margin: 0 auto;
+      }
+      #main_content img {
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 28px;
+      }
+      
+      #main_content h4 {
+        font-size: 24px;
+        line-height: 1;
+        font-weight: 500;
+      }
+      
+      #main_content h2 {
+        font-size: 28px;
+        line-height: 1.4em;
+        font-weight: 900;
+      }
+      
+      #main_content p {
+        font-size: 20px;
+        line-height: 30px;
+        font-weight: 500;
+        color: #000;
+      }
+      #main_content h1 {
+        font-size: 30px;
+        font-weight: 900;
+        color: #000;
+        line-height: 1;
+      }
+      #main_content .tSection p {
+        font-size: 18px;
+        line-height: 24px;
+        font-weight: 400;
+        color: #000;
+      }
+      
+      .tSection {
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 70px;
+        margin-top: 70px;
+      }
+      .tSection h2 {
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 1.4em;
+        color: #c51919;
+      }
+      .tSection img {
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 24px;
+      }
+      
+      
+      #main_content .order-btn {
+        padding: 10px 50px;
+        font-size: 28px;
+        color: #fff;
+        background-color: #c51919;
+        font-weight: 800;
+      }
+      
+      /* footer section */
+      #footerSection {
+       /* position: fixed;
+       bottom: 0;
+       left: 0; */
+        border-top: 4px solid #7c009e;
+        background-color: #161616;
+        color: #fff !important;
+        padding: 30px;
+      }
+      #footerSection .col-md-8 {
+        text-align: center;
+      }
+      
+      #footerSection .col-md-8 p {
+       
+        font-size: 14px;
+        line-height: 21px;
+      }
+      
+      #footerSection .col-md-8 a {
+       text-decoration: none;
+        font-size: 14px;
+        line-height: 21px;
+        color: #fff;
+      }
+      
+      #slidex img {
+        margin: 0 auto;
+      }
+      
+      #guaranteeTitle img {
+        position: relative;
+        top: -3px;
+      }
+      
+      #cards img {
+        display: inline;
+      }

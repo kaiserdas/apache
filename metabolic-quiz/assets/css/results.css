@@ -1,0 +1,39 @@
+body {
+  padding-top: 1em;
+font-family: 'Rubik', sans-serif;
+  text-align: center;
+}
+#box-content {
+ border-radius: 15px;
+box-shadow: 0 2px 24px 0 rgb(0 0 0 / 10%); 
+  padding: 20px 30px;
+}
+.blue {
+ /*color: #2798a5; */
+  color: #2798a5;;
+}
+
+#meta {
+ margin-bottom: 24px; 
+  font-weight: 700;
+}
+
+#send-plan {
+ color: #fff; 
+  background-color: #2798a5;; 
+  width: 100%;
+  margin-bottom: 20px;
+  white-space: normal;
+  font-weight: 700;
+}
+
+#bottom {
+	text-align: center;
+  margin-bottom: 14px;
+  
+}
+
+#bottom label {
+ font-size: 10px;
+}
+

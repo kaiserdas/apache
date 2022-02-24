@@ -1,0 +1,306 @@
+* {
+  font-family: 'Open Sans', sans-serif; 
+     
+  }
+  .toptext {
+    color: white;
+    font-size: 4vh;
+  }
+   
+  #top-after {
+   padding:20px;
+   }
+  
+  #top-copy{
+  background-color: #dcf0ff;
+    padding: 20px;
+  }
+  
+  #top-copy img{
+    margin: 0 auto;
+  }
+  
+  .ss{
+  text-align: center;
+  }
+  
+   .up3 h3{
+   
+     line-height: 1.6;
+  }
+
+  .redClass{
+   color: red; 
+    font-weight: bold;
+    font-size: 3vh;
+  }
+  
+  #lastup .ty-btn {
+     text-align: left;
+    padding: 2px !important;
+    
+     border-radius: 5px !important;
+     border: 2px solid #ff8c00 !important;
+     background-image: linear-gradient(#f7ab08,#f7ab08, #ff8c00) !important;
+    font-size: 28px;
+     font-weight: 700;
+     line-height: 0.7;
+    
+    
+  }
+  
+  #lastup .ty-btn img {
+     width: 70px;
+    height: 70px;
+  }
+  .tybtn {
+    
+   text-align: left !important;
+    padding: 2px !important;
+    
+     border-radius: 5px !important;
+     border: 2px solid #ff8c00 !important;
+     background-image: linear-gradient(#f7ab08,#f7ab08, #ff8c00) !important;
+   
+     line-height: 0.8 !important; 
+  }
+  .tybtn:hover {
+     color: #6e2694 !important;
+    transition: 0.3s;
+  }
+  
+  @media (max-width: 570px) {
+      #logoContainer {
+   float: none !important; 
+    margin: 0 auto !important;
+        margin-bottom: 20px !important;
+    }
+    
+      #phoneContainer {
+        margin-top: 20px;
+   float: none !important; 
+    margin: 0 auto !important;
+        width: 60%;
+    }
+  }
+@media (min-width: 280px)and (max-width: 991px) {
+  #lastup .ty-btn {
+     
+   text-align: center;
+     width:90% !important;
+     font-size: 18px !important; 
+     color: black !important;
+     padding: 2px !important;
+      white-space: normal;
+    }
+    #lastup .ty-btn img {
+  
+     width: 50px !important; 
+       height: 50px !important; 
+      float: left;
+    }
+  
+  #lastup .ty-btn span { 
+      position: relative;
+      bottom: -15px;
+       line-height: 1;
+    
+    } 
+
+  .storelinks {
+   height: 120px;
+    width: 200px;
+    margin: 10px auto;
+  }
+  
+ 
+    .tybtn {
+   width:100% !important;
+     font-size: 16px !important;
+     color: black !important;
+     padding: 2px !important;
+  }
+  .tybtn img {
+    width: 50px !important; 
+       height: 50px !important; 
+  }
+  }
+  
+ 
+  
+  /*********shine***********/
+  .shining {
+    background-color: #0046b0;
+  padding:15px;
+    color: white;
+  width:100%; /*Make sure the animation is over the whole element*/
+
+  -webkit-animation-name: ShineAnimation;
+  -webkit-animation-duration: 3s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: cubic-bezier(.12,.89,.98,.47);
+}
+  #shine:focus{
+    color: yellow;
+  }
+   #shine:active{
+    color: yellow;
+  }
+  #shine:hover{
+    color: yellow;
+  }
+
+@-webkit-keyframes ShineAnimation{
+  from {
+      background-repeat:no-repeat;
+      background-image:-webkit-linear-gradient(
+          top left,
+          rgba(255, 255, 255, 0.0) 0%,
+          rgba(255, 255, 255, 0.0) 45%,
+          rgba(255, 255, 255, 0.5) 48%,
+          rgba(255, 255, 255, 0.8) 50%,
+          rgba(255, 255, 255, 0.5) 52%,
+          rgba(255, 255, 255, 0.0) 57%,
+          rgba(255, 255, 255, 0.0) 100%
+      );
+      background-position:-250px -250px;
+      background-size: 600px 600px
+  }
+  to {
+      background-repeat:no-repeat;
+      background-position:250px 250px;
+  }
+}
+
+
+
+.fshine
+{
+  width:65%;
+  margin:0 auto;;
+}
+  .fshine:hover {
+   color: yellow; 
+  }
+  
+         #modbox {
+position: fixed;
+bottom: 20%;
+left: 0;
+   right: 0;
+}
+  
+   /***********loader***************/
+  .loader-check {
+    
+    
+  }
+  .loader {
+color: white;
+font-size: 8vh;
+    font-weight: bold;
+text-indent: -9999em;
+overflow: hidden;
+width: 1em;
+height: 1em;
+border-radius: 50%;
+margin: 4em auto;
+position: relative;
+-webkit-transform: translateZ(0);
+-ms-transform: translateZ(0);
+transform: translateZ(0);
+-webkit-animation: load6 1.7s infinite ease, round 1.7s infinite ease;
+animation: load6 1.7s infinite ease, round 1.7s infinite ease;
+}
+@-webkit-keyframes load6 {
+0% {
+  box-shadow: 0 -0.83em 0 -0.4em, 0 -0.83em 0 -0.42em, 0 -0.83em 0 -0.44em, 0 -0.83em 0 -0.46em, 0 -0.83em 0 -0.477em;
+}
+5%,
+95% {
+  box-shadow: 0 -0.83em 0 -0.4em, 0 -0.83em 0 -0.42em, 0 -0.83em 0 -0.44em, 0 -0.83em 0 -0.46em, 0 -0.83em 0 -0.477em;
+}
+10%,
+59% {
+  box-shadow: 0 -0.83em 0 -0.4em, -0.087em -0.825em 0 -0.42em, -0.173em -0.812em 0 -0.44em, -0.256em -0.789em 0 -0.46em, -0.297em -0.775em 0 -0.477em;
+}
+20% {
+  box-shadow: 0 -0.83em 0 -0.4em, -0.338em -0.758em 0 -0.42em, -0.555em -0.617em 0 -0.44em, -0.671em -0.488em 0 -0.46em, -0.749em -0.34em 0 -0.477em;
+}
+38% {
+  box-shadow: 0 -0.83em 0 -0.4em, -0.377em -0.74em 0 -0.42em, -0.645em -0.522em 0 -0.44em, -0.775em -0.297em 0 -0.46em, -0.82em -0.09em 0 -0.477em;
+}
+100% {
+  box-shadow: 0 -0.83em 0 -0.4em, 0 -0.83em 0 -0.42em, 0 -0.83em 0 -0.44em, 0 -0.83em 0 -0.46em, 0 -0.83em 0 -0.477em;
+}
+}
+@keyframes load6 {
+0% {
+  box-shadow: 0 -0.83em 0 -0.4em, 0 -0.83em 0 -0.42em, 0 -0.83em 0 -0.44em, 0 -0.83em 0 -0.46em, 0 -0.83em 0 -0.477em;
+}
+5%,
+95% {
+  box-shadow: 0 -0.83em 0 -0.4em, 0 -0.83em 0 -0.42em, 0 -0.83em 0 -0.44em, 0 -0.83em 0 -0.46em, 0 -0.83em 0 -0.477em;
+}
+10%,
+59% {
+  box-shadow: 0 -0.83em 0 -0.4em, -0.087em -0.825em 0 -0.42em, -0.173em -0.812em 0 -0.44em, -0.256em -0.789em 0 -0.46em, -0.297em -0.775em 0 -0.477em;
+}
+20% {
+  box-shadow: 0 -0.83em 0 -0.4em, -0.338em -0.758em 0 -0.42em, -0.555em -0.617em 0 -0.44em, -0.671em -0.488em 0 -0.46em, -0.749em -0.34em 0 -0.477em;
+}
+38% {
+  box-shadow: 0 -0.83em 0 -0.4em, -0.377em -0.74em 0 -0.42em, -0.645em -0.522em 0 -0.44em, -0.775em -0.297em 0 -0.46em, -0.82em -0.09em 0 -0.477em;
+}
+100% {
+  box-shadow: 0 -0.83em 0 -0.4em, 0 -0.83em 0 -0.42em, 0 -0.83em 0 -0.44em, 0 -0.83em 0 -0.46em, 0 -0.83em 0 -0.477em;
+}
+}
+@-webkit-keyframes round {
+0% {
+  -webkit-transform: rotate(0deg);
+  transform: rotate(0deg);
+}
+100% {
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+}
+@keyframes round {
+0% {
+  -webkit-transform: rotate(0deg);
+  transform: rotate(0deg);
+}
+100% {
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+}
+  #tyTop {
+   padding: 20px; 
+    text-align: center;
+    border-bottom: 2px solid black;
+  }
+  .glyphicon-earphone {
+     -webkit-transform:rotateY(180deg);
+-moz-transform:rotateY(180deg);
+-o-transform:rotateY(180deg);
+-ms-transform:rotateY(180deg);
+  }
+  
+  #logoContainer {
+   float: left;
+  }
+  
+  #phoneContainer {
+   float: right; 
+    border-radius: 25px;
+    padding: 10px 30px;
+     background: rgb(25,0,36);
+background: linear-gradient(90deg, rgba(25,0,36,1) 0%, rgba(65,9,121,1) 28%, rgba(107,0,255,1) 100%); 
+  }
+  
+  #phoneContainer a {
+   font-size: 20px; 
+    color: white;
+  }

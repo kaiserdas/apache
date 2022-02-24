@@ -1,0 +1,145 @@
+@media (min-width: 769px) and (max-width: 991px){ 
+    /* small screens and laptops */
+    #content #button-container .ini-ans {
+        font-size: 1.6em;
+    }
+
+    #blue-bg {
+        font-size: 2.2em;
+    }
+  
+  .btn-icon {
+    height: 36px;
+    width: 36px;
+	}
+}
+
+@media (min-width: 280px) and (max-width: 767px){
+
+    /* media query for the top-banner (remove floats) */
+
+    
+    #top-banner .fa-phone-alt {
+        /* position:relative;
+        top: 0px;
+        float: none; */
+        display: none;
+
+    }
+    #top-banner .container .row #logo1 { 
+        display: block;
+    }
+
+    #top-banner .container .row #logo2 { 
+        display: none;
+    }
+
+    #top-banner .container .row #banner-phone  {
+        display: none;
+        float: none;
+        text-align: center;
+    }
+
+    #top-banner .container .row #banner-email { 
+        display: none;
+        float: none;
+        text-align: center;
+    }
+
+    #top-banner .container .row .col-sm-4.col-md-4.col-lg-4 {
+        padding-bottom: 10px;
+    }
+
+
+}
+
+@media (min-width: 481px) and (max-width: 768px){
+/* iPads and tablets*/
+
+#blue-bg {
+    font-size: 1.8em;
+}
+
+    #content #button-container {
+        width: 80%;
+       
+    }
+
+    #content #button-container .ini-ans {
+        font-size: 1.4em;
+    }
+    #content #button-container .ini-ans:nth-child(2) {
+        font-size: 1.1em;
+    }
+
+
+    #qbox  {
+        width: 80%;
+      margin: auto;
+    }
+}
+
+@media (min-width: 280px) and (max-width: 480px){
+/* mobile */
+  body {
+   padding: 2px !important; 
+  }
+  #content {
+   padding: 2px; 
+  }
+  #metabolic-img {
+   height: 150px;
+    width: 100%;
+  }
+.btn-icon {
+    height: 24px;
+    width: 24px;
+	}
+#blue-bg {
+    font-size: 1.2em;
+}
+
+#content .headers.header-first {
+    
+    font-size: 1.4em;
+   
+}
+
+#content .headers.header-second {
+   
+    font-size: 1.6em;
+
+    
+}
+
+    #content #button-container {
+        width: 100%;
+       
+    }
+
+    #content #button-container .ini-ans {
+        font-size: 1em;
+        white-space: normal;
+    }
+    #content #button-container .ini-ans:nth-child(2) {
+        font-size: 1em;
+       
+    }
+
+    #qbox  {
+        width: 92%;
+    }
+  
+  .question-answers img {
+   width: 80%;
+    height: 80%;
+  }
+    .answers-col:nth-child(1) {
+        text-align: center;
+    }
+    .answers-col .img-responsive {
+        
+        height: 180px;
+        width: 200px;
+    }
+}

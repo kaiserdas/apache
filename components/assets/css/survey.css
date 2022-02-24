@@ -1,0 +1,143 @@
+body {
+    
+    /* background: #dcdcdc; */
+    font-family: 'Rubik', sans-serif;
+}
+
+    
+#top-banner {
+    background-color: #fff;
+    color: #68029e;
+    padding-top: 8px;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    border-bottom: 2px solid #68029e;
+    margin-bottom: 2em;
+  }
+  
+  #top-banner .fa-phone-alt {
+    position: relative;
+    top: 14px;
+  }
+  #top-banner .container .row #logo1 { 
+    display: none;
+  }
+  
+  #top-banner .container .row #banner-phone span, #top-banner .container .row #banner-phone p {
+    
+    float: left;
+  }
+  
+  #top-banner .container .row #banner-email p { 
+    float: right;
+  }
+  #top-banner .logo-bw {
+    height: 36px;
+    width: 206px;
+  }
+  
+  
+  @media (min-width: 280px) and (max-width: 767px){
+  
+    /* media query for the top-banner (remove floats) */
+  
+    
+    #top-banner .fa-phone-alt {
+        /* position:relative;
+        top: 0px;
+        float: none; */
+        display: none;
+  
+    }
+    #top-banner .container .row #logo1 { 
+        display: block;
+    }
+  
+    #top-banner .container .row #logo2 { 
+        display: none;
+    }
+  
+    #top-banner .container .row #banner-phone  {
+        display: none;
+        float: none;
+        text-align: center;
+    }
+  
+    #top-banner .container .row #banner-email { 
+        display: none;
+        float: none;
+        text-align: center;
+    }
+  
+    #top-banner .container .row .col-sm-4.col-md-4.col-lg-4 {
+        padding-bottom: 10px;
+    }
+  
+  
+  }
+
+#survey-form {
+    border-radius: 8px;
+    background: #fff;
+    width: 70%;
+    padding: 2.4em;
+    margin: 0 auto;
+    color: #000;
+}
+
+.surv-panel {
+  width: 50%;
+  margin: 0 auto;
+}
+.surv-question {
+    font-size: 2rem;
+}
+ul li {
+    font-size: 18px;
+    list-style: none;
+}
+ul li label {
+    font-weight: 400;
+}
+
+.question-panel {
+  position: relative;
+
+}
+
+.hidden {
+  display: none;
+  margin-right: -100px;
+}
+
+.surv-image {
+  height: 337px;
+  width: 294px;
+  border-radius: 4px;
+}
+
+@media (min-width: 280px)and (max-width: 480px) {
+ 
+  .surv-image {
+    height: auto;
+    width: 100%;
+    
+  }
+
+}
+@media (min-width: 280px)and (max-width: 768px) {
+  .surv-panel {
+    width: 100%;
+   
+  }
+/* mobile only */
+.surv-question {
+  font-size: 1.6rem;
+}
+   
+ ul li {
+  font-size: 16px;
+ 
+}
+}

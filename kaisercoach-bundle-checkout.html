@@ -1,0 +1,820 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Checkout</title>
+ 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+  <meta charset="utf-8">
+  		    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+            <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" >
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+            <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet"> 
+            <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"> 
+            <link href="https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap" rel="stylesheet"> 
+            <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&family=Patua+One&display=swap" rel="stylesheet">   
+            <link rel="stylesheet" type="text/css" href="components/assets/css/checkout.css">	
+            <link rel="stylesheet" href="build/css/intlTelInput.min.css">
+          
+                     <!-- Optional theme -->
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+            <script src="https://js.stripe.com/v3/"></script>
+
+
+            <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-79146768-4"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-79146768-4');
+</script>
+
+
+            <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-TC255SL');
+  // dataLayer.push({'event':'conversion_trigger','conversionValue': 41.00, 'orderbump': true});
+  </script>
+  <!-- End Google Tag Manager -->
+
+      <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-79146768-3"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-79146768-3');
+</script>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-KKW4JT9');</script>
+  <!-- End Google Tag Manager -->
+            <!-- Global site tag (gtag.js) - Google Ads: 10803493079 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-10803493079"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-10803493079');
+  gtag('event', 'conversion', {'send_to': 'AW-10803493079/jEGuCNyQhYoDENfxwJ8o'});
+</script>
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-808125221"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-808125221');
+  gtag('event', 'conversion', {'send_to': 'AW-808125221/UH0wCL_Ltu8CEKWGrIED'});
+</script>
+
+
+
+
+ 
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-79146768-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-79146768-1');
+</script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-808125221"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-808125221');
+</script>
+    <script type="text/javascript">
+  gtag('event', 'conversion', {'send_to': 'AW-808125221/0PR7CJ3wucYCEKWGrIED'});
+</script>
+
+
+
+
+
+   <!-- Meta Pixel Code -->
+<script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '659469148435045');
+  fbq('track', 'PageView');
+  fbq('track', 'InitiateCheckout');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=659469148435045&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
+
+
+  <script src="//widget.manychat.com/108253118182969.js" defer="defer"></script>
+  <script src="https://mccdn.me/assets/js/widget.js" defer="defer"></script>
+</head>
+<body onload="window.MC_PIXEL.fireLogConversionEvent('Visit - Checkout Page')">
+  <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TC255SL"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+  
+      <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KKW4JT9"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+  <div class="container-fluid" id="top-banner">
+    <div class="container" style="padding: 2px;">
+        <div class="row">
+            <div class="col-sm-4 col-md-4 col-lg-4" id="logo1" style="text-align: center;">
+                <img src="components/assets/img/logo-purple.png" class="logo-bw">
+            </div>
+            <div class="col-sm-4 col-md-4 col-lg-4" id="banner-phone">
+                <span><i class="fas fa-phone-alt"></i>&nbsp;&nbsp;&nbsp;&nbsp;</span><p>Questions? Call us<br>+1 (833) 692 0371</p>
+            </div>
+
+            <div class="col-sm-4 col-md-4 col-lg-4" id="logo2" style="text-align: center;">
+                <img src="components/assets/img/logo-purple.png" class="logo-bw">
+            </div>
+
+            <div class="col-sm-4 col-md-4 col-lg-4" id="banner-email">
+                <p>
+                    Need Help? Contact Us<br>
+                    service@queenformula.net
+                </p>
+            </div>
+        </div><!-- /.row -->
+    </div><!-- /.container -->
+  </div><!-- /#top-banner -->
+  <div class="container-fluid" style="padding: 0;">
+   
+            <!-- MAIN CONTENT -->
+
+            <!-- snippet images -->
+
+            <div class="container-fluid t1" style="position: relative;padding: 10px; background-color: #842c6b;text-align: left;">
+                <div class="container" style="position: relative;">
+                 <img src="components/img_assets/shield-pink.PNG" class="img-responsive" width="500" height="70" style="margin-left: 0;">
+                 </div>
+                
+              </div>
+              <div class="container" style="position: relative;">
+                 <img src="components/img_assets/bANNER-new.png" class="trust">
+                 </div>
+              <br>
+              <div class="container" style="text-align: center;">
+                <img src="components/img_assets/stars.png" class="stars" width="270" height="55" style="margin: 0 auto;">
+                <br>
+                <p style="text-align: center;font-size: 20px; font-weight: 400;color: black;">
+                  ‘1200+ 5 Star Reviews’
+                </p>
+              
+              </div> <!-----end supplements user container---->
+              <div class="container testimony">
+              
+              <div class="row">
+                <div class="col-sm-6 col-md-4" style="margin-top: 20px; text-align:center;">
+                  <div class="thumbnail" style="background-color: transparent;">
+                    <img src="components/img_assets/BFAQ1.png" class="img-responsive" alt="...">
+                    <div class="caption" >
+                      <h3><i>"I’m full of energy and living life again!"</i>- Jeanna</h3>
+                      
+                      
+                    </div>
+                  </div>
+                </div> 
+                 <div class="col-sm-6 col-md-4" style="margin-top: 20px; text-align:center;">
+                  <div class="thumbnail" style="background-color: transparent;">
+                    <img src="components/img_assets/marina.jpg" class="img-responsive" alt="...">
+                    <div class="caption">
+                      <h3><i>
+                        "My husband and I have lost 240 pounds COMBINED. This program has changed our lives forever"
+                        </i>- Marina</h3>
+                      
+                      
+                    </div>
+                  </div>
+                </div> 
+                 <div class="col-sm-6 col-md-4" style="margin-top: 20px; text-align:center;">
+                  <div class="thumbnail" style="background-color: transparent;">
+                    <img src="components/img_assets/shard.jpg" class="img-responsive"  alt="...">
+                    <div class="caption">
+                      <h3><i>
+                        "I was ashamed and embarrassed of my body for years.
+                        Not anymore! I love myself inside and out.
+                        The Dream Body Academy has given me new life"
+                        </i>- Shardai</h3>
+                      
+                      
+                    </div>
+                  </div>
+                </div> 
+              </div>
+                
+              
+              </div>  <!-----end container testimony----->
+              
+              <img src="" id="img-bundle" alt="Dream Body in 90 bundle" style="margin-top: 3em; margin-bottom: 3em;" class="img-responsive" width="900" height="400">
+              <div class="container chck" style="color: black;width: 80%;">
+              <ul class="list-group" style="line-height: 1;">
+                <li class="list-group-item" style="border: none;margin-bottom: 5px;">
+                  <input class="form-check-input me-1" type="checkbox" value="" aria-label="..." checked="true" onclick="return false">
+                  <b>Unlimited Lifetime Help And Support From World Class Coaches & Community Managers</b>
+                </li>
+                <li class="list-group-item" style="border: none;">
+                   
+                  <input class="form-check-input input-md me-1" type="checkbox" value="" aria-label="..." checked onclick="return false">
+                 <b>
+                   Step By Step Fat Loss Videos Showing You How To Melt Fat Easily
+                      </b>
+                </li>
+                <li class="list-group-item" style="border: none;">
+                  <input class="form-check-input me-1" type="checkbox" value="" aria-label="..." checked="true" onclick="return false">
+                  <b>Support & Accountability From Kaiserfit Women's Community</b>
+                </li>
+                <li class="list-group-item" style="border: none;">
+                  <input class="form-check-input me-1" type="checkbox" value="" aria-label="..." checked="true" onclick="return false">
+                  <b>Meal Plans, Recipe Guides & Workout Plans</b>
+                </li>
+                <li class="list-group-item" style="border: none;">
+                  <input class="form-check-input me-1" type="checkbox" value="" aria-label="..." checked="true" onclick="return false">
+                  <b>Secret Unadvertised Bonuses That Will Amaze You
+              </b>
+                </li>
+                 <li class="list-group-item" style="border: none;">
+                  <input class="form-check-input me-1" type="checkbox" value="" aria-label="..." checked="true" onclick="return false">
+                  <b>
+                   1 on 1 Coaching DAILY to help you lose fat Easily
+                      </b>
+                </li>
+                <li class="list-group-item" style="border: none;">
+                  <input class="form-check-input me-1" type="checkbox" value="" aria-label="..." checked="true" onclick="return false">
+                  <b>
+                   The EASIEST Transformation Of Your Life GUARANTEED
+                      </b>
+                </li>
+                
+              
+              </ul>
+              </div><!-------end checklist--------->
+              
+              <img src="components/img_assets/newmoney.png" alt="" class="img-responsive" width="900" height="400">
+              <br>
+              
+              <!------container for sale warning------------->
+              
+                <div class="container" id="saleWarning">
+                <div class="warningText">
+                      <p class="wtxt" style="font-weight: 300;">
+                    <span class="reds">Warning:</span> 
+                    Due to unexpected demand, we cannot guarantee a spot In The Dream Body Academy
+                    after <span class="reds" id="curdate">30th March 2021</span>.
+                    Sign up immediately to secure your spot before Membership is FULL
+                  </p>
+                  </div>
+                  <div class="container" style="text-align: center;color: white; width: 100%; margin-top: 10px;"><!------countdown------------->
+              
+                <div class="row" style="text-align: center;">
+                <div class="col-xs-2">
+                  &nbsp;
+                  </div>
+                    <div class="col-xs-3 col-md-2 col-sm-offset-2 col-xs-offset-1 col-md-offset-1 clock" style="border: 2px solid white; border-radius:50%;padding: 5px;
+                                                                                                             line-height: 1.4; font-size: 5vh;">
+                      00<br>
+                    <p style="color: white;font-size: 1.5vh;">HOURS</p>
+                  </div>
+                  
+                      <div class="col-xs-3 col-md-2 clock" style="margin-left:10px;border: 2px solid white; border-radius:50%;padding-bottom: 5px;
+                                                                                                              padding-right: 2px;
+                                                                                                              padding-left: 2px;
+                                                                                                                                            padding-top: 5px;line-height: 1.4; font-size: 5vh;">
+                      <span class="mins" id="mins"></span><br>
+                      <p style="color: white;font-size: 1.5vh;">MINUTES</p>
+                  </div>
+                  
+                      <div class="col-xs-3 col-md-2 clock " style="margin-left:10px;border: 2px solid white; border-radius:50%;padding-bottom: 5px;
+                                                                                                              padding-right: 2px;
+                                                                                                              padding-left: 2px;
+                                                                 padding-top: 5px;
+                                                                 line-height: 1.4; font-size: 5vh;">
+                    <span class="sec" id="sec"></span><br>
+                      <p style="color: white;font-size: 1.5vh;">SECONDS</p>
+                  </div>
+                </div>
+              </div><!------end countdown------------->
+                </div><!------end container for sale warning------------->
+              
+              
+              
+              
+              <br>
+              
+              
+              
+              
+              
+              
+              
+
+            <!-- snippet images -->
+            
+            
+
+            <!-- checkout form -->
+            
+            
+
+
+<div class="container" id="co-Container">
+<div class="checkoutForm">
+	<div id="form-title" style="background-color: #007ace; padding:2px;">
+		<h1 style="color: white;"><b>Complete Secure Order Now</b></h1>
+		</div>
+		<!---   tab section ------>
+<div class="tab" id="tabgroup">
+  <button class="tablinks active" id="firstStep" data-idx="1" data-targetx = "2ndStep" onclick="openStep(event, 'step1')"><span>1</span><br>Enter Details</button>
+  <button class="tablinks" id="2ndStep" data-idx="2" data-targetx = "3rdStep" onclick="openStep(event, 'step2')"><span>2</span><br>Confirm Order</button>
+  <button class="tablinks" id="3rdStep" data-idx="3" data-targetx = "4" onclick="openStep(event, 'step3')"><span>3</span><br>Payment</button>
+</div>
+<form id="payment-form" name="payment-form" accept-charset='UTF-8'>
+<div id="form_errors"></div>
+<div id="step1" class="tabcontent">
+
+	 <div class="form-group">
+      <input type="text" class="form-control input-lg" id="fname" name="fname" placeholder="First Name*">
+      </div>
+ 
+<div class="form-group">
+    
+    <input type="email" class="form-control input-lg deets" id="c-email" onchange="formVals()" name="c-email" placeholder="Email *">
+  </div>
+    <div class="form-group" id="phone-container">
+    
+      <label for="cnum" style="font-weight: 300;" class="flabel">Phone *</label>
+	        <input type="tel" class="form-control input-lg" size="100" id="cnum" onchange="formVals()" name="cnum" aria-label="..." >
+      	<span id="valid-msg" class="hide" style="color: green;">✓ Valid</span>
+				<span id="error-msg" class="hide" style="color: red;"></span>
+              
+      </div>
+	  
+</div>
+
+
+
+<div id="step2" class="tabcontent">
+ <ul class="list-group">
+  <li class="list-group-item" ><span class="formLabel">Email:&nbsp;&nbsp;&nbsp;&nbsp;</span><span id="li-email" class="formVal emails"></span><a href="#" data-dx="email" class="changeOpt">Change</a></li>
+  <li class="list-group-item" ><span class="formLabel">Phone:&nbsp;&nbsp;&nbsp;&nbsp;</span><span id="li-num" class="formVal nums"></span><a href="#" data-dx="num" class="changeOpt">Change</a></li>
+  </ul>
+  
+  <h4><b>Order Summary</b></h4>
+  <div class="my-order">
+	<table id="orderTable" class="table-responsive">
+    <tbody>
+	<tr>
+		
+		<td class="orderItem"><span class="orderImage"><img id="tubol" src="components/img_assets/kaisercoach/kcc.png" alt="Dream Body Academy" width="200" height="80"></span><span id="suppName">Dream Body in 90 Challenge</span></td>
+		<td class="orderPrice">$37.00</td>
+		
+	</tr>
+    </tbody>
+	<tfoot>
+	<tr class="rowTotals">
+	
+      <th class="priceTotals">Subtotal</th>
+      <td class="orderTots">$37.00</td>
+    </tr>
+	<tr class="rowTotals">
+
+      <th class="priceTotals">Total</th>
+      <td class="orderTots">$37.00</td>
+    </tr>
+	</tfoot>
+	</table>
+  <h4><b>Shipping Address</b></h4>
+    <input type="hidden" id="price_id" name="price_id" value="">
+    <input type="hidden" id="bundle_price" name="bundle_price" value="">
+  <div class="form-group">
+	
+		<input type="text" class="form-control input-lg" id="sname" name="sname" placeholder="Street Name *">
+	
+  </div>
+  <div class="row">
+  <div class="col-md-6">
+   <div class="form-group">
+	<input type="text" class="form-control input-lg" id="ctown" name="ctown" placeholder="Town/City *">
+	</div>
+	</div>
+	<div class="col-md-6">
+   <div class="form-group">
+	<input type="text" class="form-control input-lg" id="postCode" name="postCode" placeholder="Postcode *">
+	</div>
+	</div>
+  </div><!---end 1st row here------>
+  <div class="row">
+  <div class="col-md-6">
+   <div class="form-group">
+	    <!---<input type="select" class="form-control input-lg" id="cCountry" name="cCountry" placeholder="Country*">---->
+	  <select class="form-control input-lg" name="cCountry" id="cCountry">
+      <option selected="selected" value="1" disabled>--Select Country--</option>
+  		
+		</select>
+    </div>
+	</div>
+	<div class="col-md-6">
+   <div class="form-group">
+	<input type="text" class="form-control input-lg" id="cState" name="cState" placeholder="State/Country *">
+	</div>
+	</div>
+  </div><!---end 2nd row here------>
+  </div>
+  
+</div>
+
+<div id="step3" class="tabcontent">
+
+<ul class="list-group">
+  <li class="list-group-item" ><span class="formLabel">Email:&nbsp;&nbsp;&nbsp;&nbsp;</span><span id="li-emails" class="formVal emails"></span><a href="#" data-dx="email" class="changeOpt">Change</a></li>
+  <li class="list-group-item" ><span class="formLabel">Phone:&nbsp;&nbsp;&nbsp;&nbsp;</span><span id="li-nums" class="formVal nums"></span><a href="#" data-dx="num" class="changeOpt">Change</a></li>
+ 
+  </ul>
+  <h4><b>Payment Method</b></h4>
+  <p>All transactions are secure and encrypted. Credit card information is never stored on our servers.</p>
+  <div id="card-errors" role="alert"></div>
+  <div class="input-group" id="scard" style="width: 100%;">
+  <ul class="list-group paymentMethods">
+  
+  <!-- <form action="https://www.kaiserfitapp.com/wp-content/themes/hello-elementor/charge.php" method="post" id="stripe-form" name="stripe-form"> -->
+	<li class="list-group-item">
+    <label><span style="font-weight: 400;">Credit Card (Stripe)</span>
+   
+	<img src="etc/jcb.svg" class="cardIcon" alt="JCB">
+	<img src="etc/amex.svg" class="cardIcon" alt="American Express">
+	<img src="etc/mastercard.svg" class="cardIcon" alt="Mastercard">
+  <img class="cardIcon" src="etc/visa.svg" alt="Visa">
+    </label>
+	</li> 
+	<li class="list-group-item" style="display: none;" id="stripeOptions" name="stripeOptions">
+	Pay with your credit card via Stripe. 
+  <div class="form-group">
+    <label for="stripecn" style="font-weight: 400;">Card Number *</label>
+		
+					<div id="stripecn">
+					<!-- A Stripe Element will be inserted here. -->
+					</div>
+	
+  </div>
+  <div class="row">
+      <div class="col-md-6">
+								<label for="stripexpd" style="font-weight: 400;">
+									Expiry Date
+								</label>
+								<div id="stripexpd">
+								<!-- A Stripe Element will be inserted here. -->
+								</div>
+							</div>
+							<div class="col-md-6">
+								<label for="stripecc" style="font-weight: 400;">
+									Card Code (CVC)
+								</label>
+								<div id="stripecc">
+								<!-- A Stripe Element will be inserted here. -->
+								</div>
+        </div>
+    </div>
+    <div id="error" style="color: red; padding: 10px;"></div>
+    <div id="card-errors" role="alert"></div>
+    	
+	</li>
+
+
+  </ul>
+  </div>
+  <div id="orderbump">
+  <div id="orderbumpBanner" style="background-color: #1c2634; padding:10px; ">
+		<input type="checkbox" id="ob" name="ob">
+    <span class="glyphicon glyphicon-arrow-right blink" style="color: red;float: left;"></span><label for="ob" style="color: white; font-size: 22px;">Yes! Another Free Bonus!! </label>
+		
+    <input type="hidden" id="obId" name="obId" value="79">
+    <input type="hidden" id="page" name="page" value="checkout">
+    </div >
+    <div style="padding:10px;">
+		<img src="components/img_assets/79.png" class="img-responsive">
+		<p><strong>One time Offer:</strong>
+  		Join our most successful members who lose
+      the most weight <b>EFFORTLESSLY</b> in the <b>Kaiser Coach Platinum</b>
+       absolutely <b>FREE</b> and Supercharge Your Fat Loss.
+      <b>Get Monthly cooking videos, workout videos, cook books, 
+      weight loss secrets & MUCH MORE! Get all of this for the first 30 days 100% FREE!</b>
+      After that, you will be billed $79/Month and you can cancel anytime.
+      <b>Plus, get the Divine Desserts Cookbook absolutely FREE (normally $29.95)</b>
+      </p>
+		<br>
+		<img src="components/img_assets/kaisercoach/OB79q.png" class="img-responsive" alt="0">
+		<p style="font-size: 2vh; color: red; text-decoration: line-through; text-align: center; align:center;">Normally $79.00</p>
+    </div>
+      <br>
+  </div>
+ 	
+</div>
+
+<!----end tab section---->
+<div  id="buttonHolder">
+ <button type="button" class="btn btn-lg kaiserCheckout" id="next-step" data-id="1">
+  <img src="components/img_assets/clck.png">
+    <span  style="text-align: center;" id="btnTxt">&nbsp;PROCEED TO NEXT STEP <span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span></span>  
+    </button>
+
+  <button class="btn btn-lg" id="btnStripe" data-toggle="modal" data-target="#modPurchase" style="display: none;">
+   <img src="components/img_assets/clck.png">
+    <span  style="text-align: center;" id="btnTxt">Complete Secure Order</span> 
+     </button>
+  </div>
+ </form>		
+  <div id="token"></div>
+
+<div class="footers">
+<p>Secure Order Form – 100% Protected & Safe​</p>
+
+<img src="https://kaiserfitapp.com/wp-content/uploads/2021/01/Capture-1-min.png" class="attachment-large size-large" alt="" width="309" height="52">
+ 
+<footer>
+  <h3><b>KaiserFit</b> – All Rights Reserved – Terms Of Service</h3>
+</footer>
+
+    </div>
+    </div>
+
+</div>
+
+
+<div class="container-fluid" style="background-color: #d1d1d1; padding: 10px; text-align: left; margin-top: 32px;border-top: 1px solid #000">
+              
+  <div class="row">
+   
+      <div class="col-sm-2 col-md-offset-2">
+          <div class="container-map">
+             
+            
+<p class="text-muted" style="font-size: 9px;">Call us at 1 833 692 0371<br>
+or email us at: service@queenformula.net
+© 2021 
+
+Felisa Sari-Sari Store. All rights reserved. Felisa Sari-Sari Store is the owner of the Queen Formula and Queen Formula trademarks, and all related designs, trademarks, copyrights, and other intellectual property. All other trademarks are owned by their respective owners.</p>
+
+          </div>
+       </div>
+       <div class="col-md-6">
+           <div class="container-buttons">
+                <p class="text-muted" style="font-size: 9px;">
+Results vary depending on starting point, goals and effort.
+    Exercise and proper diet are necessary to achieve and maintain weight loss and muscle definition.<br>
+<br>Consult your physician and follow all safety instructions before beginning any exercise program
+    or using any supplement, nutrition plan or meal replacement product, especially if you are pregnant, breastfeeding, or if you have any unique or special medical conditions.<br>
+<br>The contents on our website are for informational purposes only, and are not intended to diagnose any medical condition, replace the advice of a healthcare professional, or provide any medical device, diagnosis, or treatment.
+</p>
+            </div>
+       </div>
+  </div>
+  <div class="container bb" style="text-align: center;color: #000;">
+
+    <div class="row">
+      <div class="col-xs-6 col-md-6">
+         <a href="/privacy-policy.html" target="_blank">Privacy Policy</a>
+      </div>
+      <div class="col-xs-6 col-md-6">
+        <a href="/terms-and-conditions.html" target="_blank">Terms and Conditions</a>
+     </div>
+    </div><!---./row----->
+  </div><!---./container----->
+</div><!-- /.container-fluid footer -->
+
+
+
+
+
+<div class="modal fade" id="modPurchase" tabindex="-1" role="dialog">
+<div id="loaderr" class="loader">Loading...</div>
+  <div class="modal-dialog" id="modbox" role="document">
+    
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Kaiserfit says</h4>
+      </div>
+      <div class="modal-body" id="mbody" style="font-size: 2vh; text-align: center;">
+        <p class="msg">Please wait while your order is being processed <span id="ldr" class="glyphicon glyphicon-alert"></span></p>
+        
+				<div></div>
+      </div>
+     
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+
+
+<script type="text/javascript">
+
+var timeInSecs;
+var ticker;
+
+function startTimer(secs) {
+timeInSecs = parseInt(secs);
+ticker = setInterval("tick()", 1000); 
+}
+
+function tick() {
+var secs = timeInSecs;
+if (secs > 0) {
+timeInSecs--; 
+}
+else {
+clearInterval(ticker);
+startTimer(9*60); // 10 minutes in seconds
+}
+
+var days= Math.floor(secs/86400); 
+secs %= 86400;
+var hours= Math.floor(secs/3600);
+secs %= 3600;
+var mins = Math.floor(secs/60);
+secs %= 60;
+var pretty = ( (hours < 10 ) ? "0" : "" ) + hours + ":" + ( (mins < 10) ? "0" : "" ) + mins + ":" + ( (secs < 10) ? "0" : "" ) + secs;
+var xmins = ( (mins < 10) ? "0" : "" ) + mins;
+  var xsec = ( (secs < 10) ? "0" : "" ) + secs;
+  document.getElementById("mins").innerText = xmins;
+  document.getElementById("sec").innerText = xsec;
+//document.getElementById("countdown").innerHTML = pretty;
+}
+
+startTimer(10*60); // 10 minutes in seconds
+
+//Credits to Philip M from codingforum
+
+</script>
+
+ <script src="build/js/intlTelInput.js"></script>
+
+            
+            
+            
+            <!-- checkout form -->
+            
+            
+            <!-- MAIN CONTENT -->
+  </div>
+
+
+  <div class="modal" id="exitModal" tabindex="-1" role="dialog">
+  <div class="modal-dialog modal-dialog-centered pops" role="document">
+    <div class="modal-content" id="popup">
+      <div class="modal-header">
+           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+        <h3 class="modal-title" style="font-size: 4vh; color: red; text-align: center; font-weight: 800;">WAIT!</h3>
+     <h3 style="font-weight: 700; font-size: 2.7vh; text-align: center;">Your Special Discount Price 
+       CANNOT Be Guaranteed If You Leave This Page</h3>
+      </div>
+      <div class="modal-body">
+       
+        <p style="font-size: 2.5vh; text-align: center;">Remember Your Order Is Fully Guaranteed With a LIFETIME MONEY BACK GUARANTEE</p>
+        <br>
+        <div id="btnWrap" class="btn-block">
+        <button class="btn btn-lg btn-block btn-danger red_page" id="red_page" style="white-space: normal; background-color:red;font-weight: 700;color: white; text-align: center; font-size: 3vh;padding: 10px;">
+          COMPLETE ORDER
+          </button>
+        </div>
+        <br>
+       
+       
+      </div>
+      <!-- <div class="modal-footer">
+        <button type="button" class="btn btn-primary">Save changes</button>
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div> -->
+    </div>
+  </div>
+</div> <!-------exitpopup------->
+
+
+
+
+ <!--Add the following script at the bottom of the web page (before </body></html>)-->
+ <script type="text/javascript">function add_chatinline(){
+  var hccid=59320448;
+  var nt=document.createElement("script");
+  nt.async=true;
+  nt.src="https://www.mylivechat.com/chatinline.aspx?hccid="+hccid;
+var ct=document.getElementsByTagName("script")[0];
+ct.parentNode.insertBefore(nt,ct);}
+  add_chatinline();
+  </script>
+
+
+  
+</body>
+
+      <!-- Latest compiled and minified JavaScript -->
+      <script src="https://kit.fontawesome.com/76508bdf5e.js" crossorigin="anonymous"></script>
+      <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+      <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+      <!-- <script src="components/assets/fb/js/split.js" type="text/javascript"></script> -->
+      <script src="components/assets/js/data.js" type="text/javascript"></script>
+      <script src="components/assets/js/stripev3.js" type="text/javascript"></script>
+      <script src="components/assets/js/countries.js" type="text/javascript"></script>
+      <script src="components/js/checkouts/checkout.js" type="text/javascript"></script>
+      
+
+      <script>
+        document.getElementById("red_page").onclick = function () {
+          $('#exitModal').modal('hide');
+         };
+         window.onbeforeunload = function (e) {window.MC_PIXEL.fireLogConversionEvent('visitor_left_checkoutpage');}
+        function gb(){
+     
+     $('#exitModal').modal({backdrop: 'static', keyboard: false});
+     $('#exitModal').modal('show');
+       }
+     
+     var mouseX = 0;
+             var mouseY = 0;
+             var popupCounter = 0;
+     
+             document.addEventListener("mousemove", function(e) {
+                 mouseX = e.clientX;
+                 mouseY = e.clientY;
+                 //document.getElementById("coordinates").innerHTML = "<br />X: " + e.clientX + "px<br />Y: " + e.clientY + "px";
+             });
+     
+            //  $(document).mouseleave(function () {
+            //      if (mouseY < 100) {
+            //          if (popupCounter < 1) {
+            //              gb();
+            //          }
+            //          popupCounter ++;
+            //      }
+            //  });
+       </script>
+        <script type="text/javascript">
+        $( document ).ready(function() {
+           var tokenx = "";
+          
+          function getCookie(cname) {
+       var name = cname + "=";
+       var decodedCookie = decodeURIComponent(document.cookie);
+       var ca = decodedCookie.split(';');
+       for(var i = 0; i <ca.length; i++) {
+         var c = ca[i];
+         while (c.charAt(0) == ' ') {
+           c = c.substring(1);
+         }
+         if (c.indexOf(name) == 0) {
+           return c.substring(name.length, c.length);
+         }
+       }
+       return "";
+             
+                 }
+          
+          function checkCookie() {
+                   
+            var uToken = getCookie("userToken");
+           
+               tokenx = uToken;
+           
+     
+     }
+          
+          checkCookie();
+
+          
+        }); //end document ready
+       </script>
+</html>

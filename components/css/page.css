@@ -1,0 +1,360 @@
+ 
+    html {
+        scroll-behavior: smooth;
+      }
+
+      body {
+        font-family: 'Rubik', sans-serif; 
+     
+    }
+       
+      .container-fluid {
+          width: 100%;
+          margin-left: 0;
+          margin-right: 0;
+          padding: 10px;
+          
+      }
+
+      
+#top-banner {
+  background-color: #fff;
+  color: #68029e;
+  padding-top: 8px;
+  font-family: 'Inter', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  border-bottom: 2px solid #68029e;
+}
+
+#top-banner .fa-phone-alt {
+  position: relative;
+  top: 14px;
+}
+#top-banner .container .row #logo1 { 
+  display: none;
+}
+
+#top-banner .container .row #banner-phone span, #top-banner .container .row #banner-phone p {
+  float: left;
+}
+
+#top-banner .container .row #banner-email p { 
+  float: right;
+}
+#top-banner .logo-bw {
+  height: 36px;
+  width: 206px;
+}
+
+@media (min-width: 280px) and (max-width: 767px){
+
+  /* media query for the top-banner (remove floats) */
+
+  
+  #top-banner .fa-phone-alt {
+      /* position:relative;
+      top: 0px;
+      float: none; */
+      display: none;
+
+  }
+  #top-banner .container .row #logo1 { 
+      display: block;
+  }
+
+  #top-banner .container .row #logo2 { 
+      display: none;
+  }
+
+  #top-banner .container .row #banner-phone  {
+      display: none;
+      float: none;
+      text-align: center;
+  }
+
+  #top-banner .container .row #banner-email { 
+      display: none;
+      float: none;
+      text-align: center;
+  }
+
+  #top-banner .container .row .col-sm-4.col-md-4.col-lg-4 {
+      padding-bottom: 10px;
+  }
+
+
+}
+
+      
+      
+      #tyTop {
+        padding: 20px 100px; 
+         text-align: center;
+         border-bottom: 4px solid #7c009e;
+        background-color: #161616;
+       }
+       .glyphicon-earphone {
+          -webkit-transform:rotateY(180deg);
+      -moz-transform:rotateY(180deg);
+      -o-transform:rotateY(180deg);
+      -ms-transform:rotateY(180deg);
+       }
+       
+       #logoContainer {
+        float: left;
+       }
+       
+       #phoneContainer {
+        float: right; 
+         border-radius: 25px;
+         padding: 10px 30px;
+          background: rgb(25,0,36);
+      background: linear-gradient(90deg, rgba(25,0,36,1) 0%, rgba(65,9,121,1) 28%, rgba(107,0,255,1) 100%); 
+       }
+       
+       #phoneContainer a {
+        font-size: 20px; 
+         color: white;
+       }
+      
+      
+      .textLogo p {
+        font-family: 'Racing Sans One', cursive;
+        /* text-align: center; */
+        font-size: 28px;
+        font-weight: 700;
+      }
+      
+      
+      
+      
+      
+      /* footer section */
+      #footerSection {
+       /* position: fixed;
+       bottom: 0;
+       left: 0; */
+        border-top: 4px solid #7c009e;
+        background-color: #161616;
+        color: #fff !important;
+        padding: 30px;
+      }
+      #footerSection .col-md-8 {
+        text-align: center;
+      }
+      
+      #footerSection .col-md-8 p {
+       
+        font-size: 14px;
+        line-height: 21px;
+      }
+      
+      #footerSection .col-md-8 a {
+       text-decoration: none;
+        font-size: 14px;
+        line-height: 21px;
+        color: #fff;
+      }
+      
+      #slidex img {
+        margin: 0 auto;
+      }
+      
+      #guaranteeTitle img {
+        position: relative;
+        top: -3px;
+      }
+      
+      #cards img {
+        display: inline;
+      }
+
+
+#section1 h2 {
+	color: #000;
+  font-size: 32px;
+  font-weight: 900;
+  line-height: 1;
+  text-align: center;
+}
+
+#section1 p {
+  	color: #000;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  
+}
+ i {
+font-weight: 400;  
+}
+.narrative {
+  padding-top: 20px;
+  width: 70%;
+}
+
+ #nar1 .img-responsive {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+
+#nar2 img {
+		margin: 0 auto;
+}
+
+
+#nar2 .pic-label {
+ text-align: center;
+  font-size: 18px; 
+  font-weight: 400; 
+  margin-bottom: 50px;
+}
+
+#nutrients {
+  margin-top: 40px;
+ width: 80%; 
+}
+
+#nutrients p {
+  	color: #000;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+#nutrients h2 {
+  font-size: 30px;
+ text-align: left; 
+  font-weight: 700;
+}
+
+#nutrients img {
+ border: 1px solid #f3f3f3;
+  border-radius: 5px;
+}
+
+#nutrients hr {
+   border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+
+#nar2 hr {
+   border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+
+
+
+ .pt {
+      font-family: 'Oswald', sans-serif;
+      font-size: 6vh;
+      font-weight: 700;
+    color: #132a74;
+    }
+    .ptt{
+       font-family: 'Oswald', sans-serif;
+      font-size: 4vh;
+     color: #132a74;
+    }
+    .ix {
+      text-align: center;
+    border: 4px solid #c8c8c8;
+      border-radius: 10px;
+    }
+    .ixx {
+     text-align: center;
+     border: 4px solid #00c6b5;
+      border-radius: 10px;
+    }
+
+     .price {
+    width: 300px;
+  display: inline-block;
+      color: #0093d8;
+     
+    }
+
+#price {
+  
+  width: 70px;
+  display: inline;
+  margin-right: 10px;
+  font-size: 4em;
+  font-weight:bold;
+  float: left;
+  margin-left: 50px;
+    }
+    
+    #per {
+      margin-top: 10px;
+     padding: 10px;
+      width: 100px;
+ float: left;
+  display: inline;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -o-text-overflow: ellipsis;
+  -ms-text-overflow: ellipsis;
+  white-space: nowrap;
+  word-break: break-all;
+      
+      
+}
+
+#bottle {
+   text-align: left;
+  font-size: 2.5vh;
+  font-weight:bold;
+  white-space: pre;
+  word-wrap: break-word;
+  -ms-word-wrap: break-word;
+  -ms-word-break: break-word;
+}
+    .best {
+     display: none; 
+    }
+
+
+    .bVal {
+    font-size: 24px;
+      color: #fff;
+      background-color: #c51919;
+      box-shadow: 0 0 15px 10px #c51919;
+      text-align: center;
+      font-weight: 800;
+       padding-top: 10px;
+      padding-bottom: 10px;
+    }
+
+		.suppBtn img {
+ max-width: 100%;     
+      margin: 0 auto;
+}
+
+.best2 {
+ margin-bottom: 100px; 
+}
+ @media (min-width: 320px)and (max-width: 991px) {
+   #section1 h2 {
+     font-size: 24px;
+   }
+   #nutrients, .narrative {
+    width: 100%; 
+   }
+         .best {
+     display: block; 
+           margin-bottom: 100px;
+    }
+         .best2 {
+     display: none; 
+    }
+   
+}

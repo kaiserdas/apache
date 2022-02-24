@@ -1,0 +1,37 @@
+* {
+    font-family: 'Open Sans', sans-serif; 
+      
+    }
+    body {
+        background-image: url("../img_assets/rpm/fitw.jpg");
+        background-color: #161a25;
+        background-blend-mode: overlay;
+        background-repeat: no-repeat;
+        background-size: cover;
+       
+    }
+
+    p {
+        font-size: 20px;
+        font-weight: 400;
+        color: #e5e4e2;
+    }
+
+   h1, h2, h3, h4 {
+    color: #fff;
+   }
+
+    .mc h1 {
+        
+        font-weight: 800;
+        font-family: 'Racing Sans One', cursive;
+      text-align: center;
+      color: #fff;
+    }
+
+    @media (min-width: 280px) and (max-width: 480px){
+            /* body {
+                background-size: contain;
+            } */
+    }
+

@@ -1,0 +1,74 @@
+@media (min-width: 481px) and (max-width: 768px){
+    .text {
+      width: 100%;
+      }
+        .dba {
+    font-size: 2.4em;
+    }
+      .orderlink, .logobw {
+       float: none;
+        width: 100%;
+        text-align: center;
+      }
+      
+      .orderlink {
+       margin-top: 20px; 
+      }
+      
+      .top-a {
+       text-align: center; 
+        float: none;
+      }
+      
+    .lead-first {
+     
+      font-size: 1.6em;
+     
+    }
+    
+    .lead-text {
+      font-size: 1.8em;
+      font-weight: 400;
+    }
+    .lead-head {
+      font-size: 2.6em;
+    
+    }
+    .lead-main {
+    
+      font-size: 2.6em;
+      
+    }
+    
+    .list-item {
+      font-size : 1.8em;
+      }
+    .bna img {
+      
+      margin-bottom: 16px;
+      }
+    
+    
+      
+
+
+.join-link img {
+  width: 80px;
+ height: 80px;
+
+}
+
+.join-link span {
+   
+  font-size: 3.6rem;
+
+top: .2em;
+
+}
+
+.divQ:nth-child(2) .join-link span {
+  /* text-align: center; */
+ font-size: 3.1rem;
+ top: .1em;
+}
+    }
