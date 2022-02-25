@@ -26,7 +26,7 @@
       url = document.referrer; 
       r = url.match(/:\/\/(.[^/]+)/)[1];
       document.cookie="convRef="+r;
-      dat = {'c': 'v', 'm': m,'r': r, 'p': p, 'op':p};
+      dat = {'c': 'v', 'm': mob,'r': r, 'p': p, 'op':p};
    } 
     $.ajax({
       type: 'POST',
